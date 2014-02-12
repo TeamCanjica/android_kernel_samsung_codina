@@ -366,6 +366,9 @@ extern struct cpufreq_governor cpufreq_gov_interactive;
 #elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_ONDEMANDQ)
 extern struct cpufreq_governor cpufreq_gov_ondemandq;
 #define CPUFREQ_DEFAULT_GOVERNOR	(&cpufreq_gov_ondemandq)
+#elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_ABYSSPLUG)
+extern struct cpufreq_governor cpufreq_gov_abyssplug;
+#define CPUFREQ_DEFAULT_GOVERNOR	(&cpufreq_gov_abyssplug)
 #endif
 
 /*********************************************************************
