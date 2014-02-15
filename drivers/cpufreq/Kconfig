@@ -118,7 +118,6 @@ config CPU_FREQ_DEFAULT_GOV_INTERACTIVE
 config CPU_FREQ_DEFAULT_GOV_ABYSSPLUG
         bool "abyssplug"
         select CPU_FREQ_GOV_ABYSSPLUG
-        select CPU_FREQ_GOV_ONDEMAND
         help
           Use the CPUFreq governor 'abyssplug' as default. This allows you
           to get a full dynamic frequency capable system with CPU
